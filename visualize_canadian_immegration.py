@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Incorporate data
-df = pd.read_csv('/content/drive/MyDrive/DEPI/Technical/Datasets/canadian_immegration_data.csv')
+df = pd.read_csv('canadian_immegration_data.csv')
 
 # App title
 st.title('Canadian Immigration Data')
